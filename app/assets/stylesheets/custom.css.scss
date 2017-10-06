@@ -11,7 +11,7 @@
 }
 
 #logo:hover{
-	color:#fff;
+	color:#ccc;
 	text-decoration:none;
 }
 
@@ -26,17 +26,36 @@
 }
 
 .jumbotron h2{
-	color:white;
-	font-size:36px;
+	color:#000;
+	font-size:50px;
 	text-align:center;
 	margin-bottom:50px;
 	letter-spacing:-1px;
+}
+
+.description{
+	margin-top:0;	
+}
+
+.article-title{
+	font-weight:bold;
+	font-size:1.5em;
+}
+
+.article-body{
+	border-top:1px solid #eaeaea;
+	padding:15px 0;
 }
 
 .btn-xlarge{
 	font-size:1.7em;
 	background-color:rgba(0,0,0,0.5);
 	border:none;
+}
+
+.article-actions{
+	border-top:1px solid #eaeaea;
+	padding-top:10px;
 }
 
 .footer-container{
@@ -67,7 +86,7 @@
 	float:left;
 }
 
-.footer nav ul{
+.footer nav ul li{
 	float:right;
 }
 .footer nav ul li{
