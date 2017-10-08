@@ -52,13 +52,19 @@
 
 .article-body{
 	border-top:1px solid #eaeaea;
-	padding:15px 0;
+	padding:15px 0 10px 0;
 }
 
 .btn-xlarge{
 	font-size:1.7em;
 	background-color:rgba(0,0,0,0.5);
 	border:none;
+}
+
+.article-meta-details{
+	padding:5px 0;
+	margin-top:15px;
+	border-top:1px solid #eaeaea;	
 }
 
 .article-actions{
